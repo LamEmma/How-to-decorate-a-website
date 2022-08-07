@@ -1,0 +1,100 @@
+
+
+#C1 {
+	width='20';
+	height='20'; 
+	alter="My photo";
+}
+
+#C1 {
+    width: 100%;
+    height: auto;
+}
+
+
+#menu {
+  	color:#F9FCFF;
+  	text-align: center;
+  	background-color: #76CDC2;
+  	padding: 30px 20px;
+  	margin:0;
+  	letter-spacing: 5px;
+  	border-style: outset;
+}
+
+
+nav {
+	background-color:#566E2D;
+	color: white;
+	overflow: hidden;
+	border-style: outset;
+
+}
+
+nav a {
+
+	color: white;
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-weight: bold;
+	padding: 10px 20px;
+	background-color:#566E2D;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	
+}
+
+
+.menu_left {
+	float: left;
+}
+
+.menu_right {
+	float: right;
+}
+
+nav a:hover {
+	background-color: #DDD;
+	color: #F79CA1; 
+}
+
+#flex_container {
+	display: flex;
+}
+
+#left_side {
+	flex: 30%;
+	background-color: #F5FFFA;
+	padding: 10x 30x;
+}
+
+#right_side {
+	flex: 70%;
+	background-color: #F5FFFA
+
+}
+
+
+h2 {
+  	color: #DC9001;
+}
+
+* {
+	color:#566E2D;
+}
+footer {
+	background-color:#566E2D;
+	color: white;
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-weight: bold;
+	padding: 10px 20px;
+	border-style: outset;
+	overflow: hidden;
+
+}
+footer a {
+	color: white;
+}
+footer a:hover {
+	color: #F79CA1; 
+}
